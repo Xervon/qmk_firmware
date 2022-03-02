@@ -1,7 +1,7 @@
 #ifndef XERVON_KEY_OVERRIDES
 #define XERVON_KEY_OVERRIDES
 
-const key_override_t s_kc_spc_override  = ko_make_basic(MOD_MASK_SHIFT, KC_SPC,  KC_BSPC);
+const key_override_t s_kc_spc_override  = ko_make_with_layers_and_negmods(MOD_MASK_SHIFT, KC_SPC,  KC_BSPC, ~0, ~MOD_MASK_SHIFT);
 
 const key_override_t s_kc_grv_override  = ko_make_basic(MOD_MASK_SHIFT, KC_GRV,  KC_NO);
 const key_override_t s_kc_slsh_override = ko_make_basic(MOD_MASK_SHIFT, KC_SLSH, KC_NO);
