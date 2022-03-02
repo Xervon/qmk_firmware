@@ -24,17 +24,19 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* Select hand configuration */
 
-// #define MASTER_LEFT
+#define MASTER_LEFT
 // #define MASTER_RIGHT
-#define EE_HANDS
+// #define EE_HANDS
 
 #define USE_SERIAL_PD2
 
 #define COMBO_COUNT 2
+#define COMBO_TERM 80
 
-#define TAPPING_TERM 200
+#define TAPPING_TERM 250
 #define IGNORE_MOD_TAP_INTERRUPT
-#define TAPPING_FORCE_HOLD_PER_KEY
+// #define TAPPING_FORCE_HOLD_PER_KEY
+#define RETRO_TAPPING
 
 #ifdef RGBLIGHT_ENABLE
     #undef RGBLED_NUM
