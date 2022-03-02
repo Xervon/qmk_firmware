@@ -1,11 +1,6 @@
 #ifndef XERVON_KEY_OVERRIDES
 #define XERVON_KEY_OVERRIDES
 
-const key_override_t s_kc_left_override = ko_make_basic(MOD_MASK_SHIFT, HM_LEFT, KC_HOME);
-const key_override_t s_kc_down_override = ko_make_basic(MOD_MASK_SHIFT, HM_DOWN, KC_PGDN);
-const key_override_t s_kc_up_override   = ko_make_basic(MOD_MASK_SHIFT, HM_UP,   KC_PGUP);
-const key_override_t s_kc_rght_override = ko_make_basic(MOD_MASK_SHIFT, HM_RGHT, KC_END);
-
 const key_override_t s_kc_spc_override  = ko_make_basic(MOD_MASK_SHIFT, KC_SPC,  KC_BSPC);
 
 const key_override_t s_kc_grv_override  = ko_make_basic(MOD_MASK_SHIFT, KC_GRV,  KC_NO);
@@ -29,11 +24,6 @@ const key_override_t s_kc_vold_override = ko_make_basic(MOD_MASK_SHIFT, HM_VOLD,
 const key_override_t s_kc_mnxt_override = ko_make_basic(MOD_MASK_SHIFT, HM_MNXT, KC_MPLY);
 
 const key_override_t **key_overrides  = (const key_override_t *[]){
-    &s_kc_left_override,
-    &s_kc_down_override,
-    &s_kc_up_override,
-    &s_kc_rght_override,
-
     &s_kc_spc_override,
 
     &s_kc_grv_override,
