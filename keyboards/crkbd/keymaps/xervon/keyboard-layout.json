@@ -317,14 +317,14 @@
       "w": 1.5,
       "h": 2.5
     },
-    "S: TAB\nM: BSP\n\n\n\n\nSPC",
+    "ENT",
     {
       "x": 0.75,
       "a": 7,
       "w": 1.5,
       "h": 2.5
     },
-    "ENT"
+    "S: TAB\nM: BSP\n\n\n\n\nSPC"
   ],
   [
     {
